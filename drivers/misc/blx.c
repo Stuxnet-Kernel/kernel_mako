@@ -16,7 +16,7 @@
 #include <linux/stat.h>
 #include <linux/export.h>
 
-static int charging_limit = MAX_CHARGINGLIMIT;
+static int charging_limit = DEFAULT_CHARGINGLIMIT;
 
 static ssize_t blx_charginglimit_read(struct device * dev, struct device_attribute * attr, char * buf)
 {
